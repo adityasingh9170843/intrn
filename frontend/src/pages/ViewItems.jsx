@@ -13,7 +13,7 @@ function ViewItems() {
 
   const showItems = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/items/view');
+      const response = await axios.get(`${import.meta.env.VITE_API_URL}/api/items/view`);
       setItems(response.data);
     } catch (error) {
       console.log(error);
