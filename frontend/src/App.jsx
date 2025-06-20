@@ -1,7 +1,7 @@
 
 import './App.css'
 import ViewItems from './pages/ViewItems'
-import AddItems from './pages/Additems'
+import AddItems from './pages/AddItems';
 import {Link} from 'react-router-dom'
 import {Routes,Route} from 'react-router-dom'
 function App() {
